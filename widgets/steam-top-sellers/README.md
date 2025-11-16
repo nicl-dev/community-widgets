@@ -50,3 +50,12 @@
       {{ end }}
     </ul>
 ```
+
+## Options
+
+The widget supports the following options:
+
+- `limit` (integer)
+    - Maximum number of unique items to display.
+    - Duplicates (same game ID) are automatically skipped and do not count toward the limit.
+    - `0` (or omitting the option) shows all available items.
